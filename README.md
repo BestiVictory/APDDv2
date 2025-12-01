@@ -65,6 +65,7 @@ The dataset is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/lice
 ## Citation
 If you find this project useful, please consider citing:
 
+```bibtex
 @article{jin2024apddv2,
   title={APDDv2: Aesthetics of Paintings and Drawings Dataset with Artist Labeled Scores and Comments},
   author={Jin, Xin and Qiao, Qianqian and Lu, Yi and Wang, Huaye and Huang, Heng and Gao, Shan and Liu, Jianfei and Li, Rui},
@@ -73,3 +74,4 @@ If you find this project useful, please consider citing:
   pages={103064--103075},
   year={2024}
 }
+```
