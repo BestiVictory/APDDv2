@@ -13,11 +13,9 @@ ArtCLIP, tailored specifically for particular painting styles, is an artistic as
 - `APDDv2-10023.csv`: This file contains annotations for the APDDv2 dataset, including artistic categories, total aesthetic scores, aesthetic attribute scores and language comments for 10,023 images.
 - `filesource.csv`: This file records the source URLs for 1892 images in the APDD dataset. The remaining images are sourced from [Wikiart](https://www.wikiart.org/) and student painting assignments.
 
-We provide alternatives to obtain the dataset:
+We provide Baidu Netdisk link to obtain the dataset:
 
 Baidu Netdisk: [Click here to download](https://pan.baidu.com/s/1MYxdI3qnAxtx62YaquRjFQ?pwd=64f2), Access code: 64f2
-
-Google Drive: [Click here to download](https://drive.google.com/file/d/1ap5dhuEgpPC5PrJozAu2VFmUNIRZrar2/view?usp=drive_link)
 
 ## ArtCLIP
 
@@ -35,16 +33,16 @@ pip3 install -r requirements.txt
 ```
 
 The model checkpoints can be downloaded from 
-[gcloud directory link](https://drive.google.com/drive/folders/1AOVKmSqZCW09J_Ypr7KzSYfRxQre-w_m?usp=drive_link).
+[Baidu Netdisk](https://pan.baidu.com/s/1HA8c9nnCRdBOR_zHNC781A?pwd=miwi), Access code: miwi.
 The folder contains the following items:
 
-- **./modle_weights/0.ArtCLIP_weight--e11-train2.4314-test4.0253_best.pth**: ArtCLIP model weight, which fine-tuned vanilla CLIP on categorized DPC2022 dataset.
+- **./0.ArtCLIP/e11-train2.4314-test4.0253_best.pth**: ArtCLIP model weight, which fine-tuned vanilla CLIP on categorized DPC2022 dataset.
 
-- **./modle_weights/1.Score_reg_weight--e4-train0.4393-test0.6835_best.pth**: ArtCLIP finetuned on the APDDv2 database for predicting total aesthetic scores.
+- **./1.Score/e4-train0.4393-test0.6835_best.pth**: ArtCLIP finetuned on the APDDv2 database for predicting total aesthetic scores.
 
      **......**
 
-- **./modle_weights/11.Mood_reg_weight--e7-train0.3108-test0.7097_best.pth**: ArtCLIP finetuned on the APDDv2 database for predicting mood scores.
+- **./11.Mood/e7-train0.3108-test0.7097_best.pth**: ArtCLIP finetuned on the APDDv2 database for predicting mood scores.
 
 For testing on ArtCLIP, use:
 
