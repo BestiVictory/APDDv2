@@ -13,9 +13,11 @@ ArtCLIP, tailored specifically for particular painting styles, is an artistic as
 - `APDDv2-10023.csv`: This file contains annotations for the APDDv2 dataset, including artistic categories, total aesthetic scores, aesthetic attribute scores and language comments for 10,023 images.
 - `filesource.csv`: This file records the source URLs for 1892 images in the APDD dataset. The remaining images are sourced from [Wikiart](https://www.wikiart.org/) and student painting assignments.
 
-We provide Baidu Netdisk link to obtain the dataset:
+We provide Baidu Netdisk and Google Drive links to obtain the dataset:
 
 Baidu Netdisk: [Click here to download](https://pan.baidu.com/s/1MYxdI3qnAxtx62YaquRjFQ?pwd=64f2), Access code: 64f2
+
+Google Drive: [Click here to download](https://drive.google.com/file/d/1wnulfQouSP1Ts6uMd2VrOJJl9em0HJtE/view?usp=sharing)
 
 ## ArtCLIP
 
@@ -34,6 +36,7 @@ pip3 install -r requirements.txt
 
 The model checkpoints can be downloaded from 
 [Baidu Netdisk](https://pan.baidu.com/s/1HA8c9nnCRdBOR_zHNC781A?pwd=miwi), Access code: miwi.
+Or [Google Drive](https://drive.google.com/file/d/17DFyXCY2rzIlonKwzGIbvJDoCRJEEWM_/view?usp=sharing)
 The folder contains the following items:
 
 - **./0.ArtCLIP/e11-train2.4314-test4.0253_best.pth**: ArtCLIP model weight, which fine-tuned vanilla CLIP on categorized DPC2022 dataset.
